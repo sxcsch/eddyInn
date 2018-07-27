@@ -313,6 +313,14 @@ div.cara {
 	float: left;
 	position: relative;
     }
+
+	.ali_portfolio {
+		width: 326px;
+		height: 319px;
+		margin: 0 10px 80px 105px;
+		float: left;
+		position: relative;
+	}
     
     .fourths_portfolio a {
 	display: block;
@@ -753,6 +761,16 @@ form.formit {
     border: 1px solid #bbbbbb;
 }
 
+.ta textarea {
+	width: 800px;
+	height: 24px;
+	margin-bottom: 22px;
+	resize: none;
+	padding: 20px;
+	font-size: 90%;
+	border: 1px solid #bbbbbb;
+}
+
 form.formit .button_submit {
     cursor:pointer;
     background-color: #e66e0d;
@@ -873,6 +891,7 @@ form.formit .button_submit {
     right: 42px;
     top: 30px;
 }
+
 
 
 
