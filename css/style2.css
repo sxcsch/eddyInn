@@ -1316,7 +1316,7 @@
 /* 盒子 */
 .ly-box32 {
 	width: 40%;
-	height: 400px;
+	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -2192,4 +2192,50 @@
 }
 .xx94 {
 	height:80%;
+}
+form {
+	padding: 20px 0;
+	position: relative;
+	z-index: 2;
+}
+form input:focus {
+	background-color: white;
+	width: 300px;
+	color: #ee9ca7;
+}
+form button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: 0;
+	background-color: white;
+	font-family: "Microsoft YaHei";
+	border: 0;
+	padding: 10px 15px;
+	color: #ee9ca7;
+	border-radius: 3px;
+	width: 250px;
+	cursor: pointer;
+	font-size: 18px;
+	-webkit-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+}
+form button:hover {
+	background-color: #f5f7f9;
+}
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 7%;
+	padding: 80px 0;
+	height: 400px;
+	text-align: center;
+}
+.container h1 {
+	font-size: 40px;
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in-put;
+	transition-timing-function: ease-in-put;
+	font-weight: 200;
 }
